@@ -1,0 +1,44 @@
+[0.599s] Invoking command in '/home/ispaik06/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/serial
+[0.924s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.924s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.924s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.925s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.925s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.925s] -- Configuring done
+[0.925s] -- Generating done
+[0.925s] -- Build files have been written to: /home/ispaik06/robot_ws/build/serial
+[0.928s] Invoked command in '/home/ispaik06/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/serial
+[0.930s] Invoking command in '/home/ispaik06/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/serial -- -j12 -l12
+[1.005s] [ 14%] Built target gtest_main
+[1.014s] [ 28%] Built target gtest
+[1.030s] [ 57%] Built target serial
+[1.057s] [ 71%] Built target serial-test-timer
+[1.058s] [ 85%] Built target serial-test
+[1.064s] [100%] Built target serial_example
+[1.081s] Invoked command in '/home/ispaik06/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/serial -- -j12 -l12
+[1.137s] Invoking command in '/home/ispaik06/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/serial
+[1.152s] -- Install configuration: ""
+[1.153s] -- Execute custom install script
+[1.154s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/lib/libserial.a
+[1.154s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/include/serial/serial.h
+[1.154s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/include/serial/v8stdint.h
+[1.155s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/library_path.sh
+[1.155s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[1.156s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.156s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.156s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.157s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.157s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/path.sh
+[1.158s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/environment/path.dsv
+[1.159s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/local_setup.bash
+[1.159s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/local_setup.sh
+[1.159s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/local_setup.zsh
+[1.160s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/local_setup.dsv
+[1.160s] -- Symlinking: /home/ispaik06/robot_ws/install/serial/share/serial/package.dsv
+[1.174s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.175s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.175s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.176s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.176s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.176s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/serial/share/serial/package.xml
+[1.176s] Invoked command in '/home/ispaik06/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/serial
